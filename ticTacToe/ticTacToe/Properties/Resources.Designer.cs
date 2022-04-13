@@ -61,6 +61,15 @@ namespace ticTacToe.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream assobio {
+            get {
+                return ResourceManager.GetStream("assobio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap imagemmmm {
@@ -126,6 +135,25 @@ namespace ticTacToe.Properties {
         internal static System.Drawing.Bitmap imgLogo_removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("imgLogo-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream zapmusic {
+            get {
+                return ResourceManager.GetStream("zapmusic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zapzap {
+            get {
+                object obj = ResourceManager.GetObject("zapzap", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

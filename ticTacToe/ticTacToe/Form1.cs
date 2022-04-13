@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace ticTacToe
 {
@@ -17,9 +18,27 @@ namespace ticTacToe
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Form2 frm = new Form2();
+            this.Hide();
+            frm.FormClosed += (s, args) => this.Close();
+            frm.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            playZAPZAP();
+        }
+        private void playZAPZAP()
+        {
+            SoundPlayer ZAPZAPsound = new SoundPlayer(Properties.Resources.zapmusic);
+            ZAPZAPsound.Play();
         }
     }
 }
