@@ -20,12 +20,19 @@ namespace ticTacToe
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            playZAPZAP();
         }
         private void playZAPZAP()
         {
             SoundPlayer ZAPZAPsound = new SoundPlayer(Properties.Resources.assobio);
             ZAPZAPsound.Play();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            normalOff frm = new normalOff();
+            this.Hide();
+            frm.FormClosed += (s, args) => this.Close();
+            frm.Show();
         }
     }
 }
