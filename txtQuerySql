@@ -1,0 +1,38 @@
+create database tictactoe
+go
+
+use tictactoe
+go
+
+create table Usuario(
+	id int primary key identity not null,
+	username varchar(20) not null,
+	senha varchar(20) not null,
+	ratingNormal int not null default(0) check(ratingNormal >= 0),
+	ratingSuper int not null default(0) check(ratingSuper >= 0)
+);
+go
+
+create table Fila(
+	id int primary key identity not null,
+	id_usuario int foreign key references Usuario(id) not null,
+	tipojogo varchar(10) not null check(tipojogo in ('Normal','Super'))
+);
+go
+
+create table Jogo(
+	id int primary key identity not null,
+	id_usuarioX int foreign key references Usuario(id) not null,
+	id_usuarioY int foreign key references Usuario(id) not null,
+	tipojogo varchar(10) not null check(tipojogo in ('Normal','Super'))
+);
+go
+
+create table jogadas(
+	id int primary key identity not null,
+	id_jogo int foreign key references Jogo(id) not null,
+	campo int not null check (campo >= 1 and campo <= 9),
+	subcampo int check (campo >= 1 and campo <= 9),
+	jogada char(1) not null check (jogada in ('X','O'))
+);
+go
