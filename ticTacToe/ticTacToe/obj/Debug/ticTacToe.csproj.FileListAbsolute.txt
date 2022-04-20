@@ -34,3 +34,16 @@ C:\Users\Aluno\Desktop\projeto2\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacTo
 C:\Users\Aluno\Desktop\projeto2\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.exe
 C:\Users\Aluno\Desktop\projeto2\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.pdb
 C:\Users\Aluno\Desktop\projeto2\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.normalOff.resources
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\bin\Debug\ticTacToe.exe.config
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\bin\Debug\ticTacToe.exe
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\bin\Debug\ticTacToe.pdb
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.Form1.resources
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.Form2.resources
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.normalOff.resources
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.Properties.Resources.resources
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.exe
+C:\Users\Aluno\Desktop\projeto\ticTacToe\ticTacToe\ticTacToe\obj\Debug\ticTacToe.pdb
