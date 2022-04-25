@@ -165,8 +165,17 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Fila.cs">
+      <DependentUpon>tictactoeDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="jogadas.cs">
+      <DependentUpon>tictactoeDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Jogo.cs">
+      <DependentUpon>tictactoeDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tictactoeDB.Context.cs">
@@ -174,10 +183,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>tictactoeDB.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="tictactoeDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tictactoeDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="tictactoeDB.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>tictactoeDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs">
+      <DependentUpon>tictactoeDB.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -219,6 +236,12 @@
     <Content Include="tictactoeDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>tictactoeDB.Context.cs</LastGenOutput>
+      <DependentUpon>tictactoeDB.edmx</DependentUpon>
+    </Content>
+    <Content Include="tictactoeDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>tictactoeDB.edmx</DependentUpon>
+      <LastGenOutput>tictactoeDB.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -238,9 +261,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>tictactoeDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="tictactoeDB.edmx.diagram">
+    <Content Include="tictactoeDB.edmx.diagram">
       <DependentUpon>tictactoeDB.edmx</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
