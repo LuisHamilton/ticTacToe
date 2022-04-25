@@ -140,11 +140,12 @@
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label3.Font = new System.Drawing.Font("Stencil", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(327, 397);
+            this.label3.Location = new System.Drawing.Point(747, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(149, 44);
+            this.label3.Size = new System.Drawing.Size(41, 44);
             this.label3.TabIndex = 13;
-            this.label3.Text = "VOLTAR";
+            this.label3.Text = "x";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form2
             // 

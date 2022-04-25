@@ -34,5 +34,13 @@ namespace ticTacToe
             frm.FormClosed += (s, args) => this.Close();
             frm.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Form1 frm2 = new Form1();
+            this.Hide();
+            frm2.FormClosed += (s, args) => this.Close();
+            frm2.Show();
+        }
     }
 }

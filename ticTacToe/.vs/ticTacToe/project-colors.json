@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c0a6eb69-8820-4d24-9774-8b9ab6f38ea3": {
+      "ProjectGuid": "c0a6eb69-8820-4d24-9774-8b9ab6f38ea3",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 0
+    },
+    "eab72106-016c-4578-b00a-c931206677e9": {
+      "ProjectGuid": "eab72106-016c-4578-b00a-c931206677e9",
+      "DisplayName": "ticTacToe",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
